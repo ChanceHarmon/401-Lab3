@@ -1,5 +1,17 @@
-let array = [1, 2, 3, 4, 5];
 
-array.forEach(item => console.log(item));
+const EditFile = require('../edit-file');
 
-console.log('Ignorance is bliss');
+
+const myEditFile = new EditFile();
+
+myEditFile.readFilePromises(`${__dirname}/person.json`)
+  .then(fileString => {
+    console.log(fileString.toString());
+    return 'conan is great';
+  })
+
+
+
+
+  .catch(error => console.error(error));
+
