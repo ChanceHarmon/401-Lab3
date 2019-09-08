@@ -16,7 +16,7 @@ class EditFile {
     });
   }
   editFile(filename) {
-    fs.edit(filename, (error, fileContents) => {
+    edit(filename, (error, fileContents) => {
       if (error) {
         console.log('error');
       } else {
