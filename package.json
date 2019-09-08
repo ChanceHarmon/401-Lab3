@@ -1,0 +1,28 @@
+{
+  "name": "401-Lab3",
+  "version": "1.0.0",
+  "description": "Async",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "dependencies": {
+    "fs": "^0.0.1-security",
+    "fs-extra": "^8.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ChanceHarmon/401-Lab3.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ChanceHarmon/401-Lab3/issues"
+  },
+  "homepage": "https://github.com/ChanceHarmon/401-Lab3#readme"
+}
